@@ -1,0 +1,52 @@
+get ASIZE asize
+
+
+filexor 0x79
+
+log "PGCONFIG_🫠" 0 asize 
+
+/*
+filexor "0x78"
+log "0x78.pak" 0 asize
+
+filexor ""
+log "0x00.pak" 0 asize
+*/
+
+/*
+comtype zstd
+clog "zstd.pak" 0 asize asize
+*/
+
+
+/*
+
+set key binary "4519"
+string k1 b key
+print "key %k1%"
+
+string b1 h k1
+print "b1 %b1%"
+
+
+print "bms: %bms%"
+*/
+/*
+comtype oodle
+clog "ns" 0 asize 1275
+*/
+/*
+math size = 0x185CA358
+math offset = 0x18156298
+math size - offset
+log video.pak offset size
+*/
+
+/*
+comtype zstd
+clog "unpack.uexp" 200767799 218 688
+*/
+/*
+comtype base64_compress
+clog "base64.txt" 0 asize asize
+*/
