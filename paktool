@@ -1,8 +1,0 @@
-cd ~
-if [[ -d "$HOME/PGMAP/pak_folder" ]];then
-rm -rf $HOME/PGMAP/pak_folder
-else
-echo""
-fi
-cd $HOME/PGMAP
-bash setup
