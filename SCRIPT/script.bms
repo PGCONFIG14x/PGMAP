@@ -3,7 +3,7 @@ get ASIZE asize
 
 filexor 0x79
 
-log "PGCONFIG_🫠" 0 asize 
+log "PGCONFIG_FILE" 0 asize 
 
 /*
 filexor "0x78"
